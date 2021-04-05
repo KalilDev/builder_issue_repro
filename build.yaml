@@ -1,0 +1,7 @@
+builders:
+  builder_bug:
+    import: 'package:bug_generator/builder_bug.dart'
+    builder_factories: ['bugBuilder']
+    build_extensions: { '.t.dart': ['.dart'] }
+    auto_apply: root_package
+    build_to: source
